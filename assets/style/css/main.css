@@ -13,14 +13,17 @@ li {
 }
 
 .top {
-  width: 1600px;
+  width: 100%;
+  height: 75px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   background-color: #0D0D0D;
-  position: static;
+  position: fixed;
+  z-index: 2;
+  top: 0;
 }
 .top .logo {
   position: relative;
@@ -68,4 +71,31 @@ li {
   background-color: rgba(106, 195, 255, 0.8039215686);
   transition: 0.2s;
   cursor: pointer;
+}
+
+main {
+  width: 100%;
+  position: relative;
+}
+main .sec1 {
+  width: 1920px;
+  position: relative;
+  margin: 0 auto;
+}
+main .sec1 .back_text {
+  font-family: "Poppins";
+  font-size: 600px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 90%; /* 540px */
+  letter-spacing: -18px;
+  text-transform: uppercase;
+  background: url(../../img/3d.png), lightgray -146.707px -313.801px/118.664% 257.719% no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  z-index: -1;
+  margin-top: 5%;
+  margin-left: 200px;
 }/*# sourceMappingURL=main.css.map */
