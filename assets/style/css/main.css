@@ -43,7 +43,7 @@ body {
   justify-content: space-between;
 }
 .top .bar a {
-  color: #FFF;
+  color: rgb(196, 196, 196);
   font-family: "Poppins", Font-Family;
   font-size: 18px;
   font-style: normal;
@@ -53,13 +53,13 @@ body {
 }
 .top .bar a:hover {
   transition: 0.3s;
-  color: #79c9ff;
+  color: #ffffff;
 }
 .top .btn {
   width: 180px;
   height: 40px;
   border-radius: 10px;
-  background: #D9D9D9;
+  background: #f0f0f0;
   color: #000;
   font-family: "Poppins", Font-Family;
   font-size: 20px;
@@ -71,8 +71,8 @@ body {
   border: none;
 }
 .top .btn:hover {
-  background-color: rgba(106, 195, 255, 0.8039215686);
-  transition: 0.2s;
+  background-color: #ffffff;
+  transition: 0.2s ease-out;
   cursor: pointer;
 }
 
